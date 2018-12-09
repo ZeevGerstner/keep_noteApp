@@ -1,0 +1,30 @@
+.keep-nav {
+    background: gray;
+    padding: 20px;
+    align-items: center;
+}
+.keep-nav-logo{
+    font-size: 2em;
+    cursor: pointer;
+}
+.nav-item {
+    font-size: 2em;
+    margin-left: 20px;
+    transition: all .3s;
+}
+
+.nav-item:hover {
+    transform: scale(2)
+}
+
+.keep-nav input {
+    padding: 5px;
+}
+
+@media (max-width:700px){
+    .keep-nav {
+    flex-direction: column;
+    padding: 10px;
+        margin: 20px 0;
+    }
+}
